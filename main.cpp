@@ -89,7 +89,6 @@ bool ChekInclude(const path& in_file, const path& out_file, const string& str, c
     return true;
 }
 
-// напишите эту функцию
 bool Preprocess(const path& in_file, const path& out_file, const vector<path>& include_directories) {
 
     ifstream stream(in_file, ios::binary);
